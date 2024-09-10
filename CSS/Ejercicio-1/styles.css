@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+a {
+    color: yellow;
+}
+
+.centered {
+    text-align: center;
+}
+
+.semi-dark-background {
+    background-color: #1F1F1F;
+}
+
+#location {
+    position: relative;
+    left: 25%;
+    height: 40%;
+    width: 50%;
+}
+
+#video {
+    position: relative;
+    left: 30%;
+    height: 40%;
+    width: 40%;
+    border-style: groove;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 15px;
+}
+
