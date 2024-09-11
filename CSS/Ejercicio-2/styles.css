@@ -1,0 +1,37 @@
+.box {
+    width: 200px;
+    height: 530px;
+    border: 2px solid rgba(0,0,0,0.2);
+    background-color: #b4aea8;
+}
+
+#theOutsider {
+    width: 100%;
+    height: 300px;
+}
+
+.boxTitle {
+    margin: 7px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.boxDescription {
+    margin: 7px;
+    text-align: center;
+    font-family: Courier;
+    font-size: 14px;
+}
+
+#seeMore {
+    position: relative;
+    left: 22%;
+    width: 60%;
+    height: 30px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: #7B0828;
+    color: white;
+}
+
