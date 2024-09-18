@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+}
+
+#navegationBar {
+    background-color: #baa898;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    font-family: sans-serif;
+    font-size: 20px;
+    position: sticky;
+    top: 0px;
+}
+
+#logoImage {
+    width: 80px;
+    height: 80px;
+}
+
+.centerAlign {
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.button {
+    background-color: #780828;
+    color: white;
+    border-radius: 15px;
+    border-style: none;
+}
+
+#helpButton {
+    height: 40px;
+    width: 35px;
+}
+
+#logInButton {
+    height: 40px;
+    width: 120px; 
+}
+
+#signUpButton {
+    color: #780828;
+    background-color: #baa898;
+    border: solid 2px #780828;
+    height: 40px;
+    width: 120px; 
+}

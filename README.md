@@ -8,3 +8,4 @@
 ### CSS
 1. [Ejercicio #1 - Formato de texto, fuentes, fondos y border](CSS/Ejercicio-1/index.html)
 2. [Ejercicio #2 - Tarjeta](CSS/Ejercicio-2/index.html)
+3. [Ejercicio #3 - Header sticky](CSS/Ejercicio-3/html/index.html)
