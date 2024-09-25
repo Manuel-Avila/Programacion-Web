@@ -10,3 +10,4 @@
 2. [Ejercicio #2 - Tarjeta](CSS/Ejercicio-2/index.html)
 3. [Ejercicio #3 - Header sticky](CSS/Ejercicio-3/html/index.html)
 4. [Ejercicio #4 - Formulario con estilos, pseudoelementos y pseudoclases](CSS/Ejercicio-4/html/index.html)
+5. [Ejercicio #5 - Sitio con tarjetas (Flex)](CSS/Ejercicio-5/html/index.html)

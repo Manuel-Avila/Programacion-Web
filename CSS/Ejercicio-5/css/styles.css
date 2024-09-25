@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+}
+
+#navegationBar {
+    background-color: #baa898;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+#logoImage {
+    width: 80px;
+    height: 80px;
+}
+
+.centerAlign {
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #780828;
+}
+
+.button {
+    background-color: #780828;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 15px;
+    border-style: none;
+}
+
+#helpButton {
+    height: 40px;
+    width: 35px;
+}
+
+#logInButton {
+    height: 40px;
+    width: 120px; 
+}
+
+#signUpButton {
+    color: #780828;
+    background-color: #baa898;
+    border: solid 2px #780828;
+    height: 40px;
+    width: 120px; 
+}
+
+#startView {
+    background-color: #baa898;
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 20px 50px #baa898;
+}
+
+.white {
+    color: white;
+}
+
+.headingFont {
+    font-family: sans-serif;
+}
+
+.textFont {
+    font-family: 'Courier New';
+}
+
+#iLib {
+    padding: 0;
+    margin: 13vh auto 3vh; 
+    font-size: 7em;
+}
+
+#slogan {
+    margin: 0 auto 5vh;
+    padding: 0;
+    font-size: 1.2em;
+}
+
+#createAccountB {
+    width: 400px;
+    height: 8vh;
+    font-size: 1.7em;
+}
+
+#bestBooks {
+    padding: 10vh;
+    padding-top: 4vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 200px;
+    row-gap: 50px;
+}
+
+#bestBooksH {
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #780828;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px #780828;
+    width: 160px;
+    top: 7.5vh;
+    left: 30vh;
+    padding: 0;
+}
+
+#genres:hover .submenu{
+    display: block;
+}
+
+.submenu li {
+    padding: 8px;
+}
+
+.submenu li:hover a{
+    color: rgb(199, 199, 199);
+}
+
+li {
+    list-style: none;
+}
+
+
+/* Clases para los libros */
+
+.bookBox {
+    width: 200px;
+    height: 550px;
+    border: 2px solid rgba(0,0,0,0.2);
+    background-color: #b4aea8;
+    box-shadow: 0 15px 30px #b4aea8;
+}
+
+.bookImage {
+    width: 100%;
+    height: 300px;
+}
+
+.bookTitle {
+    margin: 7px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.bookDescription {
+    margin: 7px;
+    text-align: center;
+    font-family: Courier;
+    font-size: 14px;
+}
+
+.seeMore {
+    position: relative;
+    left: 21%;
+    width: 60%;
+    height: 30px;
+}
+
+.description {
+    margin-bottom: 17px;
+    height: 150px;
+    overflow: hidden;
+}
+
