@@ -2,14 +2,24 @@
 <html lang="es">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>iLib</title>
-        <meta charset="utf-8">
         <link rel="stylesheet" href="../css/styles.css">
+        <meta charset="utf-8">
+        <title>iLib</title>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                let logos = document.querySelectorAll('.logoImage');
+                for(let logo of logos) {
+                    logo.addEventListener('click', function() {
+                        alert('Por que me diste click?');
+                    });
+                }
+            });
+        </script>
     </head>
     <body>
         <header id="navegationBar">
             <nav class="centerAlign">
-                <img id="logoImage" src="../resources/images/logo.png" alt="iLib Logo">
+                <img class="logoImage" src="../resources/images/logo.png" alt="iLib Logo">
                 <a href="">Libreria</a>
                 <li id="genresSM">
                     <a href="">Generos ▼</a>
@@ -117,14 +127,29 @@
             </div>
         </div>
 
-        <br><br><br><br><br><br>
-        <br><br><br><br><br><br>
-        <br><br><br><br><br><br>
-        <br><br><br><br><br><br>
-        <br><br><br><br><br><br>
-        <br><br><br><br><br><br>
-        <br><br><br><br><br><br>
-        <br><br><br><br><br><br>
-        <br><br><br><br><br><br>
+        <footer>
+            <div>
+                <img alt="iLib logo" class="logoImage" src="../resources/images/logo.png">
+                <h5>iLib</h5>
+            </div>
+
+            <div>
+                <h5>Acerca de iLib</h5>
+                <a href="#">Accesibilidad</a>
+                <a href="#">Terminos y condiciones </a> 
+            </div>
+
+            <div>
+                <h5>Cuenta</h5>
+                <a href="#">Cambiar contraseña</a>
+                <a href="#">Cambiar Correo</a>
+            </div>
+
+            <div>
+                <h5>Descubrir</h5>
+                <a href="#">Autores</a>
+                <a href="#">Generos</a>
+            </div>
+        </footer>
     </body>
 </html>

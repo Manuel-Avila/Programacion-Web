@@ -2,6 +2,7 @@
     --dark-red: #780828;
     --button-hover: #9d0d36;
     --font-color-white: white;
+    --font-color-black: black;
     --background-color: #baa898;
     --heading-font: sans-serif;
     --text-font: 'Courier New';
@@ -11,6 +12,10 @@
 
 body {
     margin: 0;
+}
+
+h1, h2, h3, h5 {
+    font-family: var(--heading-font);
 }
 
 button:hover {
@@ -26,9 +31,10 @@ button:hover {
     font-size: calc(.4rem + 1vw);
 }
 
-#logoImage {
+.logoImage {
     min-width: 5vw;
     height: 80px;
+    cursor: pointer;
 }
 
 .centerAlign {
@@ -146,8 +152,8 @@ a:hover {
     border-radius: 10px;
     box-shadow: 0 5px 10px var(--dark-red);
     width: 160px;
-    top: 7.5vh;
-    left: 30vh;
+    top: 55px;
+    left: (25vh - 5px);
     padding: 0;
 }
 
@@ -195,6 +201,32 @@ li {
     display: none;
 }
 
+footer {
+    margin-top: 20vh;
+    height: 25vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--background-color);
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+}
+
+footer a {
+    color: var(--font-color-black);
+    font-family: var(--text-font);
+    margin: 0.8vh;
+}
+
+footer h5 {
+    font-size: 1.7em;
+    margin: 1.3vh;
+}
+
 @media (max-width: 480px) {
     #navegationBar a {
         display: none;
@@ -232,6 +264,10 @@ li {
     .heading {
         margin: auto;
         padding: 2%;
+    }
+
+    footer div:nth-of-type(3), div:nth-of-type(4) {
+        display: none;
     }
 }
 
