@@ -4,17 +4,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../css/styles.css">
         <meta charset="utf-8">
+        <script src="../js/index.js"></script>
         <title>iLib</title>
-        <script>
-            document.addEventListener('DOMContentLoaded', function() {
-                let logos = document.querySelectorAll('.logoImage');
-                for(let logo of logos) {
-                    logo.addEventListener('click', function() {
-                        alert('Por que me diste click?');
-                    });
-                }
-            });
-        </script>
     </head>
     <body>
         <header id="navegationBar">
@@ -36,11 +27,12 @@
             </nav>
             <nav class="centerAlign">
                 <button class="button" id="helpButton">?</button>
-                <button class="button" id="signUpButton">Registrarse</button>
+                <button class="outlineButton" id="signUpButton">Registrarse</button>
                 <button class="button" id="logInButton">Iniciar Sesion</button>
                 <button class="button" id="menu">☰</button>
             </nav>
         </header>
+        
         <div id="startView">
             <h1 id="iLib" class="white">iLIb</h1>
             <p id="slogan" class="textFont white">Una experiencia de lectura sin igual !!!</p>
@@ -49,53 +41,53 @@
 
         <div id="bestBooks">
             <h2 id="bestBooksH" class="heading fullWidth">Los mejores libros</h2>
-            <div class="bookBox">
-                <img class="bookImage" alt="Imagen del libro: The Outsider" src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1524596540i/36124936.jpg">
-                <h3 class="bookTitle">The Outsider</h3>
-                <div class="description">
-                    <p class="bookDescription">Terry Maitland, a suburban parent, is accused of a grisly murder. Detective Ralph Anderson struggles to solve the bizarre case as he finds some conflicting clues.</p>
+            <a href="book.html">
+                <div class="bookBox">
+                    <img class="bookImage" alt="Imagen del libro: The Outsider" src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1524596540i/36124936.jpg">
+                    <h3 class="bookTitle">The Outsider</h3>
+                    <div class="description">
+                        <p class="bookDescription">Terry Maitland, a suburban parent, is accused of a grisly murder. Detective Ralph Anderson struggles to solve the bizarre case as he finds some conflicting clues.</p>
+                    </div>
+                    <button class="button seeMore">Ver mas</button>
                 </div>
-                <form action="https://www.goodreads.com/book/show/36124936-the-outsider?from_search=true&from_srp=true&qid=pubpyre8sc&rank=2" method="get">
-                    <button class="button seeMore" type="submit">Ver mas</button>
-                </form>
-            </div>
+            </a>
 
-            <div class="bookBox">
-                <img class="bookImage" alt="Imagen del libro: The Outsider" src="https://imagessl8.casadellibro.com/a/l/s5/28/9788408175728.webp">
-                <h3 class="bookTitle">El código Da Vinci</h3>
-                <div class="description">
-                    <p class="bookDescription">TRobert Langdon, profesor de simbología, investiga el asesinato en el Louvre. Descubre una serie de enigmas que revelan un secreto oculto durante siglos relacionado con el Santo Grial y la historia cristiana.</p>
+            <a href="book.html">
+                <div class="bookBox">
+                    <img class="bookImage" alt="Imagen del libro: The Outsider" src="https://imagessl8.casadellibro.com/a/l/s5/28/9788408175728.webp">
+                    <h3 class="bookTitle">El código Da Vinci</h3>
+                    <div class="description">
+                        <p class="bookDescription">TRobert Langdon, profesor de simbología, investiga el asesinato en el Louvre. Descubre una serie de enigmas que revelan un secreto oculto durante siglos relacionado con el Santo Grial y la historia cristiana.</p>
+                    </div>
+                    <button class="button seeMore">Ver mas</button>
                 </div>
-                <form action="https://www.goodreads.com/book/show/67556.El_c_digo_da_Vinci?from_search=true&from_srp=true&qid=CcxsteS41X&rank=1" method="get">
-                    <button class="button seeMore" type="submit">Ver mas</button>
-                </form>
-            </div>
+            </a>
 
-            <div class="bookBox">
-                <img class="bookImage" alt="Imagen del libro: The Outsider" src="https://images.cdn3.buscalibre.com/fit-in/360x360/04/1f/041faab83743751d96b0b362733f33f4.jpg">
-                <h3 class="bookTitle">El Alquimista</h3>
-                <div class="description">
-                    <p class="bookDescription">Santiago, un joven pastor andaluz, emprende un viaje en busca de un tesoro. A través de experiencias y encuentros, aprende valiosas lecciones sobre el destino, los sueños y el verdadero sentido de la vida.</p>
+            <a href="book.html">
+                <div class="bookBox">
+                    <img class="bookImage" alt="Imagen del libro: The Outsider" src="https://images.cdn3.buscalibre.com/fit-in/360x360/04/1f/041faab83743751d96b0b362733f33f4.jpg">
+                    <h3 class="bookTitle">El Alquimista</h3>
+                    <div class="description">
+                        <p class="bookDescription">Santiago, un joven pastor andaluz, emprende un viaje en busca de un tesoro. A través de experiencias y encuentros, aprende valiosas lecciones sobre el destino, los sueños y el verdadero sentido de la vida.</p>
+                    </div>
+                    <button class="button seeMore">Ver mas</button>
                 </div>
-                <form action="https://www.goodreads.com/book/show/45497.El_alquimista?ref=nav_sb_ss_1_13" method="get">
-                    <button class="button seeMore" type="submit">Ver mas</button>
-                </form>
-            </div>
+            </a>
 
-            <div class="bookBox">
-                <img class="bookImage" alt="Imagen del libro: The Outsider" src="https://m.media-amazon.com/images/I/91XNAr6qfoL._AC_UF894,1000_QL80_.jpg">
-                <h3 class="bookTitle">The Last Star</h3>
-                <div class="description">
-                    <p class="bookDescription">Cassie, Ben y Ringer luchan por salvar lo que queda de la humanidad tras devastadoras invasiones alienígenas. Con la última ola de ataques en marcha, deben enfrentarse a decisiones desesperadas y sacrificios finales.</p>
+            <a href="book.html">
+                <div class="bookBox">
+                    <img class="bookImage" alt="Imagen del libro: The Outsider" src="https://m.media-amazon.com/images/I/91XNAr6qfoL._AC_UF894,1000_QL80_.jpg">
+                    <h3 class="bookTitle">The Last Star</h3>
+                    <div class="description">
+                        <p class="bookDescription">Cassie, Ben y Ringer luchan por salvar lo que queda de la humanidad tras devastadoras invasiones alienígenas. Con la última ola de ataques en marcha, deben enfrentarse a decisiones desesperadas y sacrificios finales.</p>
+                    </div>
+                    <button class="button seeMore">Ver mas</button>
                 </div>
-                <form action="https://www.goodreads.com/book/show/16131489-the-last-star?from_search=true&from_srp=true&qid=o7J72a6HbZ&rank=1" method="get">
-                    <button class="button seeMore" type="submit">Ver mas</button>
-                </form>
-            </div>
+            </a>
         </div>
 
         <h2 id="genresH" class="heading">Todos los géneros que puedes imaginar</h2>
-        <div id="genres">    
+        <div id="genres"> 
             <div class="bookBox">
                 <img alt="Imagen del genero: Ciencia Ficción" class="bookImage" src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1555447414i/44767458.jpg">
                 <h3 class="bookTitle">Ciencia Ficción</h3>

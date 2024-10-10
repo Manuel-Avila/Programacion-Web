@@ -1,0 +1,52 @@
+main {
+    display: flex;
+    margin: 8vh 10vw;
+}
+
+main div {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 4vw;
+}
+
+.bookPortrait {
+    width: 24rem;
+    height: auto;
+}
+
+#bookInfo {
+    width: 80%;
+}
+
+main a {
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+
+main a:hover {
+    color: var(--dark-red);
+}
+
+#bookOptions * {
+    margin-bottom: 1rem;
+}
+
+.bookOptionB {
+    width: 80%;
+    margin: auto;
+    height: 2.5rem;
+    font-size: 1.5rem;
+}
+
+#wishList {
+    font-size: 1.1rem;
+}
+
+.redOutlined {
+    outline: 2px solid var(--dark-red);
+}
+
+select:hover {
+    outline: 3px solid var(--button-hover);
+}

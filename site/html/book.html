@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="../css/book.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="../js/index.js"></script>
+        <title>Book</title>
+    </head>
+    <body>
+        <header id="navegationBar">
+            <nav class="centerAlign">
+                <img class="logoImage" src="../resources/images/logo.png" alt="iLib Logo">
+                <a href="">Libreria</a>
+                <li id="genresSM">
+                    <a href="">Generos ▼</a>
+                    <ul class="submenu">
+                        <li><a href="#">Drama</a></li>
+                        <li><a href="#">Romance</a></li>
+                        <li><a href="#">Accion</a></li>
+                        <li><a href="#">Drama</a></li>
+                        <li><a href="#">Suspenso</a></li>
+                        <li><a href="#">Ciencia Ficcion</a></li>
+                    </ul>
+                </li>
+                <a href="">Autores</a>
+            </nav>
+            <nav class="centerAlign">
+                <button class="button" id="helpButton">?</button>
+                <button class="outlineButton" id="signUpButton">Registrarse</button>
+                <button class="button" id="logInButton">Iniciar Sesion</button>
+                <button class="button" id="menu">☰</button>
+            </nav>
+        </header>
+
+        <main>
+            <div id="bookOptions">
+                <img alt="Imagen del libro" class="bookPortrait" src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1524596540i/36124936.jpg">
+                <select class="form-select redOutlined">
+                    <option value="1" selected>Pasta Blanda</option>
+                    <option value="2">Pasta Dura</option>
+                    <option value="3">Digital</option>
+                </select>
+                <button class="button bookOptionB">Comprar</button>
+                <button class="outlineButton bookOptionB whiteBackground" id="wishList">Agregar a lista de deseos</button>
+            </div>
+
+            <div id="bookInfo">
+                <h2>The Outsider</h2>
+                <h5>Stephen King</h5>
+                <p>
+                    An unspeakable crime. A confounding investigation. At a time when the King brand has never been stronger, he has delivered one of his most unsettling and compulsively readable stories.
+                </p>
+                <p>
+                    An eleven-year-old boy’s violated corpse is found in a town park. Eyewitnesses and fingerprints point unmistakably to one of Flint City’s most popular citizens. He is Terry Maitland, Little League coach, English teacher, husband, and father of two girls. Detective Ralph Anderson, whose son Maitland once coached, orders a quick and very public arrest. Maitland has an alibi, but Anderson and the district attorney soon add DNA evidence to go with the fingerprints and witnesses. Their case seems ironclad.
+                </p>
+                <p> 
+                    As the investigation expands and horrifying answers begin to emerge, King’s propulsive story kicks into high gear, generating strong tension and almost unbearable suspense. Terry Maitland seems like a nice guy, but is he wearing another face? When the answer comes, it will shock you as only Stephen King can.
+                </p>
+                <h6>Generos:</h6>
+                <p>
+                    <a href="#">Horror</a>, 
+                    <a href="#">Miedo</a>, 
+                    <a href="#">Suspenso</a>, 
+                    <a href="#">Ficcion</a> 
+                    <a href="#">...more</a>
+                </p>
+            </div>
+        </main>
+
+        <footer>
+            <div>
+                <img alt="iLib logo" class="logoImage" src="../resources/images/logo.png">
+                <h5>iLib</h5>
+            </div>
+
+            <div>
+                <h5>Acerca de iLib</h5>
+                <a href="#">Accesibilidad</a>
+                <a href="#">Terminos y condiciones </a> 
+            </div>
+
+            <div>
+                <h5>Cuenta</h5>
+                <a href="#">Cambiar contraseña</a>
+                <a href="#">Cambiar Correo</a>
+            </div>
+
+            <div>
+                <h5>Descubrir</h5>
+                <a href="#">Autores</a>
+                <a href="#">Generos</a>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+</html>
