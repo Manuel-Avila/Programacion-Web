@@ -1,17 +1,18 @@
 main {
     display: flex;
     margin: 8vh 10vw;
+    column-gap: 4vw;
 }
 
 main section {
     display: flex;
     flex-direction: column;
-    padding: 0px 4vw;
 }
 
 .bookPortrait {
     width: 24rem;
     height: auto;
+    margin: auto;
 }
 
 #bookOptions * {
@@ -44,7 +45,7 @@ main section {
 }
 
 #bookInfo {
-    width: 80%;
+    width: 100%;
 }
 
 .bestSeller {
@@ -72,7 +73,7 @@ main a:hover {
 }
 
 .bookOptionB {
-    width: 80%;
+    width: 24rem;
     margin: auto;
     height: 2.5rem;
     font-size: 1.5rem;
@@ -90,12 +91,41 @@ select:hover {
     outline: 3px solid var(--button-hover);
 }
 
+.bookType {
+    width: 24rem; 
+    margin: 0 auto; 
+}
+
 .recommendations {
     width: 85%;
     margin: auto;
     text-align: center;
 }
 
-@media (min-width: 480) and (max-width: 1360) {
-    
+@media (max-width: 1360px) {
+    main {
+        flex-direction: column;
+    }
+
+    #bookInfo {
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .bookPortrait, .bookOptionB, .bookType {
+        width: 80vw;
+    }
+
+    .rating{
+        font-size: 1.5rem;
+    }
+
+    .rating h5{
+        margin: 0;
+    }
+
+    .rating p {
+        display: none;
+    }
 }
