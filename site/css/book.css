@@ -12,10 +12,62 @@ main div {
 .bookPortrait {
     width: 24rem;
     height: auto;
+    box-shadow: 3px 5px 15px 2px black;
+}
+
+#bookOptions * {
+    margin-bottom: 1.2rem;
+}
+
+.rating {
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+    padding: 0;
+}
+
+.rating span {
+    margin: 0.4rem;
+}
+
+.rating h5 {
+    font-size: 2rem;
+    margin: 0.2rem;
+}
+
+.rating p {
+    font-size: 0.9rem;
+    margin: 0.7rem;
+}
+
+.flexCentered {
+    justify-content: center;
+}
+
+.checked {
+    color: var(--dark-red);
+}
+
+.unchecked {
+    color: var(--book-background);
 }
 
 #bookInfo {
     width: 80%;
+}
+
+.bestSeller {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.author::after {
+    content: "🥇";
+}
+
+main h2 {
+    font-size: 2.5rem;
 }
 
 main a {
@@ -26,10 +78,6 @@ main a {
 
 main a:hover {
     color: var(--dark-red);
-}
-
-#bookOptions * {
-    margin-bottom: 1rem;
 }
 
 .bookOptionB {
@@ -49,4 +97,52 @@ main a:hover {
 
 select:hover {
     outline: 3px solid var(--button-hover);
+}
+
+.flexWrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 5rem;
+}
+
+.marginTop5 {
+    margin-top: 2rem;
+}
+
+.recommendations {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+
+.recommendations a {
+    text-decoration: none;
+    color: var(--font-color-black);
+}
+
+.recommendations a:hover {
+    color: var(--dark-red);
+}
+
+.bookR {
+    width: 15rem;
+    height: 33rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.bookR img {
+    width: 100%;
+    height: 22rem;
+}
+
+.bookR h5{
+    font-size: 2rem;
+    margin: 0.5rem;
+}
+
+.bookR p {
+    margin: 0;
 }
