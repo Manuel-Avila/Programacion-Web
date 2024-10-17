@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <link href="styles.css" rel="stylesheet">
+        <title>Ejercicio 2</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Cambiar Color de Fondo</h1>
+            <div class="button-container">
+                <button class="red">Rojo</button>
+                <button class="green">Verde</button>
+                <button class="blue">Azul</button>
+                <button class="restore">Restablecer</button>
+            </div>
+            <p>Haz click en un boton para cambiar mi color!</p>
+        </div>
+
+        <script>
+            let body = document.querySelector('body');
+
+            document.querySelector('.red').addEventListener('click', function () {
+                body.style.backgroundColor = 'red';
+            });
+
+            document.querySelector('.green').addEventListener('click', function () {
+                body.style.backgroundColor = 'green';
+            });
+
+            document.querySelector('.blue').addEventListener('click', function () {
+                body.style.backgroundColor = 'blue';
+            });
+
+            document.querySelector('.restore').addEventListener('click', function () {
+                body.style.backgroundColor = 'white';
+            });
+
+        </script>
+    </body>
+</html>

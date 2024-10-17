@@ -1,0 +1,45 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    transition: background-color 2s;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: solid 1px black;
+    border-radius: 10px;
+    padding: 3rem;
+    row-gap: 0.5rem;
+}
+
+button {
+    border-radius: 5px;
+    color: white;
+    border-style: none;
+    padding: 0.4rem 1rem;
+    font-size: 1.1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.restore {
+    color: black;
+    background-color: rgb(201, 199, 199);
+}
