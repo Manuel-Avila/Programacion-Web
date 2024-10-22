@@ -1,0 +1,78 @@
+body {
+    background-color: #000000;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    font-family: sans-serif;
+}
+
+body div {
+    color: white;
+    background-color: #282525;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+.calculator h2 {
+    margin: 1rem auto;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: white;
+    color: black;
+    height: 3rem;
+    padding-right: 1rem;
+    width: 90%;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px 1px rgb(77, 76, 76);
+}
+
+.calculator-buttons {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.calculator button {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 15px;
+    font-size: 1.4rem;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px 1px rgb(77, 76, 76);
+}
+
+.calculator button:not(.orange) {
+    background-color: #adadad;
+}
+
+.calculator button:not(.orange):hover {
+    background-color: #868686;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.orange:hover {
+    background-color: rgb(207, 135, 0);
+}
+
+.history {
+    height: 30rem;
+    width: 25rem;
+}
+
+.operations-history {
+    text-align: left;
+    font-size: 1.2rem;
+    height: 85%;
+    overflow: auto;
+}
+
+.operations-history li {
+    margin-bottom: 0.5rem;
+}

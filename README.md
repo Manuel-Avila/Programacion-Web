@@ -22,4 +22,5 @@
 
 ### JavaScript
 1. [Ejercicio 1 - Calculadora](JavaScript/Ejercicio-1/index.html)
-1. [Ejercicio 2 - Manipulación de estilos](JavaScript/Ejercicio-2/index.html)
+2. [Ejercicio 2 - Manipulación de estilos](JavaScript/Ejercicio-2/index.html)
+3. [Ejercicio 3 - Calculadora visual](JavaScript/Ejercicio-3/index.html)
