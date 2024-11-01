@@ -26,3 +26,4 @@
 3. [Ejercicio 3 - Calculadora visual](JavaScript/Ejercicio-3/index.html)
 4. [Ejercicio 4 - Lista de tareas](JavaScript/Ejercicio-4/index.html)
 5. [Ejercicio 5 - Tarjeta con datos base de un gato](JavaScript/Ejercicio-5/index.html)
+6. [Ejercicio 6 - Modules](JavaScript/Ejercicio-6/index.html)
