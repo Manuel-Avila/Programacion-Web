@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(195, 192, 192);
+    font-family: sans-serif;
+}
+
+main {
+    margin: 5rem auto;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    width: 60%;
+    column-gap: 1.5rem;
+    background-color: white;
+    box-shadow: 3px 3px 30px 10px rgb(65, 65, 65);
+}
+
+main img {
+    width: 20rem;
+}
